@@ -12,3 +12,8 @@ This version features a WebSocket and HTTP-based version that authenticates Disc
 - **Configuration Management**: Loads account details and settings from a JSON configuration file, simplifying setup and customization.
 - **Graceful Shutdown**: Handles keyboard interrupts to allow for a clean shutdown, ensuring all threads and connections close properly.
 - **Log File Generation**: Records all activities and errors in a log file for later review, aiding in debugging and monitoring.
+
+# Usage
+Clone this repo 
+
+``` git clone ```
