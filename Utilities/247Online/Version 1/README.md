@@ -14,6 +14,56 @@ This version features a WebSocket and HTTP-based version that authenticates Disc
 - **Log File Generation**: Records all activities and errors in a log file for later review, aiding in debugging and monitoring.
 
 # Usage
-Clone this repo 
+Clone the repository.
+```
+git clone https://github.com/Demonic1594/Discord-Utils.git
+```
+Locate to the directory.
+```
+cd Discord-Utils/Utilities/247Online
+```
+Choose which version, in this we go to version 1.
+```
+cd "Version 1"
+```
+Install the requirements.
+```
+pip install -r requirements.txt
+```
+Edit the config.json with your details.
++ Token - Your Discord User Token.
++ Status - Status you want to set, the options are; online, idle, dnd.
++ Custom Status - The custom status you want to add or can be left blank.
+```py
+{
+  "accounts": [
+    {
+      "token": "DiscordUserToken1",
+      "status": "online",
+      "custom_status": "Your custom status 1"
+    }
+  ]
+}
+```
+ + Simply add another section to add another account.
+```py
+{
+  "accounts": [
+    {
+      "token": "DiscordUserToken1",
+      "status": "online",
+      "custom_status": "Your custom status 1"
+    },
+    {
+      "token": "DiscordUserToken2",
+      "status": "idle",
+      "custom_status": "Your custom status 2"
+    }
+  ]
+}
+```
+And finally, run the file.
+```
+python main.py
+```
 
-``` git clone ```
