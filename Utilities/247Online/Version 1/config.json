@@ -1,14 +1,14 @@
 {
   "accounts": [
     {
-      "token": "DiscordUserToken1", // Your User Discord Token
-      "status": "online", // online, idle, dnd
-      "custom_status": "Your custom status 1", // The custom status you want to set or optionally you can leave it blank
+      "token": "DiscordUserToken1",
+      "status": "online",
+      "custom_status": "Your custom status 1" 
     },
     {
       "token": "DiscordUserToken2",
       "status": "idle",
       "custom_status": "Your custom status 2"
-    } // Simply add another to add more accounts to set online
+    }
   ]
 }
