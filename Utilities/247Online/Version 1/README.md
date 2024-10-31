@@ -67,6 +67,11 @@ Run the utility with the following command:
 ```bash
 python main.py
 ```
+To stop the utility, simply do:
+```bash
+Ctrl + C
+```
+ - This is gracefully stop the utility properly.
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
