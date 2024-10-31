@@ -22,7 +22,6 @@ Locate to the directory.
 ```
 cd Discord-Utils/Utilities/247Online
 ```
-Choose which version, in this we go to version 1.
 ```
 cd "Version 1"
 ```
@@ -31,9 +30,9 @@ Install the requirements.
 pip install -r requirements.txt
 ```
 Edit the config.json with your details.
-+ Token - Your Discord User Token.
-+ Status - Status you want to set, the options are; online, idle, dnd.
-+ Custom Status - The custom status you want to add or can be left blank.
++ **Token** - Your Discord User Token.
++ **Status** - Status you want to set, the options are; `online`, `idle`, `dnd` and `invisible`.
++ **Custom Status** - The custom status you want to add or can be left blank.
 ```py
 {
   "accounts": [
