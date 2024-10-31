@@ -4,9 +4,7 @@ Utilities that can be used to personalize and take more leverage in managing you
 # Discord Utilities
 - 24/7 Online
   - Version 1: HTTP and WebSocket
-    - PLACEHOLDER
   - Version 2: WIP
-    - WIP
 
 # Disclaimer
-Under no circumstances shall my projects or I be held accountable for any potential damages or losses that may occur due to your negligence. This project is for educational purposes only.
+Under no circumstances shall my projects or I be held accountable for any potential damages or losses that may occur due to your negligence. This project is for EDUCATIONAL PURPOSES only.
